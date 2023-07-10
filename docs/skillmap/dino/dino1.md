@@ -42,7 +42,7 @@ hint~
 
 #### ~ tutorialhint
 
-```blocks
+```spy
 //@highlight
 scene.setBackgroundImage(img`.`)
 ```
@@ -73,7 +73,7 @@ hint~
 
 #### ~ tutorialhint
 
-```blocks
+```spy
 //@highlight
 scene.setBackgroundImage(sprites.background.cityscape2)
 ```
@@ -132,7 +132,7 @@ hint~
 
 #### ~ tutorialhint
 
-```blocks
+```spy
 scene.setBackgroundImage(sprites.background.cityscape2)
 //@highlight
 let mamaDino = sprites.create(img`.`, SpriteKind.Player)
@@ -169,7 +169,7 @@ hint~
 
 #### ~ tutorialhint
 
-```blocks
+```spy
 scene.setBackgroundImage(sprites.background.cityscape2)
 //@highlight
 let mamaDino = sprites.create(assets.image`Mama`, SpriteKind.Player)
@@ -210,7 +210,7 @@ hint~
 
 #### ~ tutorialhint
 
-```blocks
+```spy
 scene.setBackgroundImage(sprites.background.cityscape2)
 let mamaDino = sprites.create(assets.image`Mama`, SpriteKind.Player)
 //@highlight
@@ -256,7 +256,7 @@ hint~
 
 #### ~ tutorialhint
 
-```blocks
+```spy
 scene.setBackgroundImage(assets.image`Freeway`)
 let mamaDino = sprites.create(assets.image`Mama`, SpriteKind.Player)
 controller.moveOnlyOnscreenWithArrows(mamaDino, controller.Speeds.Fast)
@@ -317,7 +317,7 @@ forever(function () {
 
 #### ~ tutorialhint
 
-```blocks
+```spy
 //@highlight
 forever(function () {
     let babyDino = sprites.createProjectileFromSide(assets.image`Baby`, -90, 0)
